@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Commande de PC sur mésure</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="requester_first_view">CONSTRUISEZ VOUS MEME VOTRE PC!</string>
+    <string name="requester_second_view"> APPUYEZ SUR LE BOUTON POUR COMMENCER</string>
+    <string name="votre_boitier">CHOISISSEZ VOTRE BOITIER</string>
+    <string name="votre_carte_mere">CHOISISSEZ VOTRE CARTE-MERE</string>
+    <string name="votre_barette">CHOISISSEZ VOTRE BARRETTE</string>
+    <string name="votre_disque_dur">CHOISISSEZ VOTRE DISQUE-DUR</string>
+    <string name="votre_ecran">CHOISISSEZ VOTRE ECRAN</string>
+    <string name="votre_ensemble">CHOISISSEZ  VOTRE ENSEMBLE CLAVIER-SOURIS</string>
+    <string name="votre_nav_web">CHOISISSEZ  VOTRE NAVIGATEUR</string>
+    <string name="suite_Bureautique">CHOISISSEZ AU BESOIN UNE SUITE BUREAUTIQUE</string>
+    <string name="outils_dev">CHOISISSEZ AU BESOIN DES OUTILS DE DEVELOPPEMENT</string>
+    <string name="termine">Terminé</string>
+    <string name="Bienvenu">Bienvenu a B.S.F Services</string>
+
+
+
+    <string name="menu_home">Home</string>
+    <string name="add_item_storekeeper">Ajouter un composant</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_requester_add">Ajouter un requester</string>
+    <string name="menu_storekeeper_show_stock">Consulter le stock</string>
+    <string name="menu_requester_list">Liste des requesters</string>
+    <string name="nav_logout">Se déconnecter</string>
+    <string name="login_title">Connectez-vous</string>
+    <string name="login_input_placeholder">Adresse email</string>
+    <string name="login_password_placeholder">Mot de passe</string>
+    <string name="login_submit_form_btn">Se connecter</string>
+    <string name="login_failed_message">Identifiants de connexion incorrects</string>
+    <string name="email_invalid">Adresse email invalide</string>
+    <string name="password_invalid">Le mot de passe doit avoir au moins 5 caractères</string>
+    <string name="password_confirmation_invalid">Les mots de passes ne sont pas conformes</string>
+    <string name="title_requester_add">Veuillez remplir les champs</string>
+    <string name="requester_last_name_label">Nom du requester</string>
+    <string name="requester_first_name_label">Prénoms du requester</string>
+    <string name="requester_email_adress_label">Adresse email</string>
+    <string name="requester_password_input_label">Mot de passe</string>
+    <string name="requester_confirm_password_input_label">Confirmer le mot de passe</string>
+    <string name="requester_add_btn_label">Ajouter</string>
+    <string name="search_requester_input_label">Rechercher ici</string>
+    <string name="nav_alimenter_stock">Alimenter le stock</string>
+    <string name="nav_reset_stock">Réinitialiser le stock</string>
+    <string name="nav_reset_database">Réinitialiser la base données</string>
+    <string name="nav_empty_database">Vider la base données</string>
+    <string name="materiel_type_label">Composant matériel</string>
+    <string name="logiciel_type_label">Composant logiciel</string>
+    <string name="commande">Passer une commande</string>
+    <string name="etat_commande">Etat des commandes</string>
+    <string name="choice_title">"Choisissez votre "</string>
+    <string name="mes_commandes">Voici vos commandes</string>
+    <string name="commades_save">Commandes enregistrés</string>
+    <string name="modification">Modifier l\'état</string>
+    <string name="voir_stock">Voir le stock</string>
+    <string name="mise_attente">Mise en attente</string>
+    <string name="accepter">Accepter</string>
+    <string name="rejeter">Rejeter</string>
+
+
+</resources>

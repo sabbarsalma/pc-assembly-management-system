@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.commande_pc.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gestionnaire"
+        android:name="com.example.commande_pc.ui.Assembler.GestionFragment"
+        android:label="@string/commades_save"
+        tools:layout="@layout/gestionnaire_des_commandes"/>
+
+    <fragment
+        android:id="@+id/nav_store_almenter_stock"
+        android:name="com.example.commande_pc.ui.storekeeper.AddComponentFragment"
+        android:label="@string/add_item_storekeeper"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/nav_show_stock"
+        android:label="@string/menu_storekeeper_show_stock"
+        android:name="com.example.commande_pc.ui.storekeeper.ListStockComponents"
+        />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.commande_pc.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_requester_add"
+        android:name="com.example.commande_pc.ui.requester.AddRequesterFragment"
+        android:label="@string/menu_requester_add"
+        tools:layout="@layout/fragment_add_requester" />
+    <fragment
+        android:id="@+id/nav_requester_list"
+        android:name="com.example.commande_pc.ui.requester.ListRequesterFragment"
+        android:label="@string/menu_requester_list"
+        tools:layout="@layout/fragment_list_requester" />
+
+
+
+    <fragment
+        android:id="@+id/nav_requester_commande_pc"
+        android:name="com.example.commande_pc.ui.orders.PlaceOrderFragment"
+        android:label="@string/commande"
+        tools:layout="@layout/choosing_items_1" />
+    <fragment
+        android:id="@+id/nav_etat_commande"
+        android:name="com.example.commande_pc.ui.requester.AddRequesterFragment"
+        android:label="Etat d'une commande"
+        tools:layout="@layout/fragment_add_requester" />
+    <fragment
+        android:id="@+id/nav_supprimer_commande"
+        android:name="com.example.commande_pc.ui.requester.ListRequesterFragment"
+        android:label="Supprimer une commande"
+        tools:layout="@layout/fragment_list_requester" />
+
+    <fragment
+        android:id="@+id/nav_alimenter_stock"
+        android:name="com.example.commande_pc.ui.slideshow.SlideshowFragment"
+        android:label="Commander un PC"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_supprimer_element_stock"
+        android:name="com.example.commande_pc.ui.requester.AddRequesterFragment"
+        android:label="Etat d'une commande"
+        tools:layout="@layout/fragment_add_requester" />
+    <fragment
+        android:id="@+id/nav_etat_stock"
+        android:name="com.example.commande_pc.ui.requester.ListRequesterFragment"
+        android:label="Supprimer une commande"
+        tools:layout="@layout/fragment_list_requester" />
+
+
+    <fragment
+        android:id="@+id/nav_accpter_commande"
+        android:name="com.example.commande_pc.ui.slideshow.SlideshowFragment"
+        android:label="Commander un PC"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_rejeter_coommande"
+        android:name="com.example.commande_pc.ui.requester.AddRequesterFragment"
+        android:label="Etat d'une commande"
+        tools:layout="@layout/fragment_add_requester" />
+    <fragment
+        android:id="@+id/nav_cloture_commande"
+        android:name="com.example.commande_pc.ui.requester.ListRequesterFragment"
+        android:label="Supprimer une commande"
+        tools:layout="@layout/fragment_list_requester" />
+    <fragment
+        android:id="@+id/nav_toutes_commandes"
+        android:name="com.example.commande_pc.ui.slideshow.SlideshowFragment"
+        android:label="Commander un PC"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_reset_stock"
+        android:name="com.example.commande_pc.ui.administrator.UploadDataBaseAndStock"
+        android:label="Réinitialiser le stock"
+        tools:layout="@layout/upload_db_and_stock" />
+    <fragment
+        android:id="@+id/nav_reset_database"
+        android:name="com.example.commande_pc.ui.administrator.UploadRequesterAndStock"
+        android:label="Réinitialiser la base de données"
+        tools:layout="@layout/upload_requester_and_stock" />
+    <fragment
+        android:id="@+id/fragment_2"
+        android:name="com.example.commande_pc.ui.orders.Choosing2Fragment"
+        tools:layout="@layout/choosing_items_2"/>
+    <fragment android:id="@+id/nav_requester_etat_commande" android:name="com.example.commande_pc.ui.orders.OrderStateFragment" android:label="@string/etat_commande" tools:layout="@layout/see_order_status"/>
+    <fragment
+        android:id="@+id/fragment_visualiser"
+        android:name="com.example.commande_pc.ui.orders.DisplayItemsFragment"
+        tools:layout="@layout/display_items"/>
+
+</navigation>

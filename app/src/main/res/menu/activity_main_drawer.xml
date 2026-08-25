@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/add_item_storekeeper" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_requester_add"
+            android:icon="@drawable/web_link"
+            android:title="@string/menu_requester_add"
+            />
+        <item
+            android:id="@+id/nav_requester_list"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_requester_list" />
+
+        <item
+            android:id="@+id/nav_show_stock"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_storekeeper_show_stock" />
+        <item
+            android:id="@+id/nav_store_almenter_stock"
+            android:icon="@drawable/web_link"
+            android:title="@string/nav_alimenter_stock" />
+        <item
+            android:id="@+id/nav_reset_stock"
+            android:icon="@drawable/web_link"
+            android:title="@string/nav_reset_stock" />
+        <item android:id="@+id/nav_reset_database"
+            android:icon="@drawable/aucun_resultat"
+            android:title="@string/nav_reset_database"
+            />
+        <item android:id="@+id/nav_empty_database"
+            android:icon="@drawable/aucun_resultat"
+            android:title="@string/nav_empty_database"
+            />
+        <item
+            android:id="@+id/nav_requester_commande_pc"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/commande" />
+        <item
+            android:id="@+id/nav_requester_etat_commande"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/etat_commande" />
+        <item
+            android:id="@+id/nav_requester_suprimer_commande"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Supprimer une commande" />
+        <item
+            android:id="@+id/nav_store_delete"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Supprimer du stock" />
+        <item
+            android:id="@id/nav_gestionnaire"
+            android:icon="@drawable/ic_gestion"
+            android:title="@string/commades_save"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/nav_logout" />
+
+    </group>
+</menu>
