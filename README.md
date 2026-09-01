@@ -2,6 +2,8 @@
 
 A role-based Android application for managing custom PC orders end to end, from request to assembly, built for SEG2505 (Introduction to Software Engineering, University of Ottawa) as a team project.
 
+**Skills demonstrated:** Java, Android development, SQLite, UML/OOP design, concurrency debugging, unit testing (JUnit)
+
 ## Context
 
 The app models a small internal PC-building service: employees submit requests for custom-built computers, a stock manager keeps the parts inventory, and an assembler builds and fulfills the orders. Rather than a generic CRUD app, the project's core challenge was designing a coherent multi-role workflow and data model that could evolve cleanly across five incremental deliverables, from an in-memory prototype to a fully persistent, tested application.
